@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+ 
+.homePage section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+/* styles for hero banner */
+.heroBanner div {
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.heroBanner_Text{
+  width: 40%;
+}
+ 
+.heroBanner div h1 {
+  padding: 10px;
+  font-size: 40px;
+  font-weight: bold;
+}
+ 
+.heroBanner div p {
+  padding: 10px;
+  text-justify: auto;
+  font-size: 20px;
+}
+ 
+/* styles for community banner */
+.communitySection{
+  padding: 10px 0px;
+}
+.communitySection img {
+  width: 60vw;
+  height: 80vh;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+ 
+.communitySection div {
+  padding: 10px;
+}
+ 
+.communitySection div h1 {
+  padding: 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+ 
+.communitySection div p {
+  padding: 10px;
+  text-justify: auto;
+  font-size: 20px;
+}
+.communitySection button {
+  margin: 10px 0px 0px 10px;
+  background-color: white;
+  color: black;
+  border-radius: 10em;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 1em 2em;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid black;
+  box-shadow: 0 0 0 0 black;
+}
+ 
+.communitySection button:hover {
+  transform: translateY(-4px) translateX(-2px);
+  box-shadow: 2px 5px 0 0 black;
+};
+ 
+.communitySection button:active {
+  transform: translateY(2px) translateX(1px);
+  box-shadow: 0 0 0 0 black;
+};
+ 
+ 
+ /* styles for donate banner */
+
+ .donateBanner{
+  margin-bottom: 20px;
+ }
+
+.donateBanner img {
+  width: 60vw;
+  height: 80vh;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+ 
+.donateBanner div {
+  padding: 10px;
+}
+ 
+.donateBanner div h1 {
+  padding: 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+ 
+.donateBanner div p {
+  padding: 10px;
+  text-justify: auto;
+  font-size: 20px;
+}
+ 
+.footer-container {
+  margin-top: 10px;
+  width: 100%;
+  background-color: rgb(48, 48, 48);
+  color: aliceblue;
+}
+.footer-container .copyright {
+  text-align: center;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  /* Styles for screens up to 600px wide (typically mobile screens) */
+
+  /* for hero banner */
+
+  .heroBanner_Text{
+    width: 80%;
+  }
+  .heroBanner div{
+    height: 350px;
+  }
+  .heroBanner div h1{
+    font-size: 25px;
+  }
+  .heroBanner div p {
+    font-size: 16px;
+  }
+  /* for community banner */
+  .communitySection img{
+    display: none;
+
+  }
+  .communitySection div h1{
+    font-size: 25px;
+  }
+  /* for donate banner */
+  .donateBanner img{
+    display: none;
+  }
+  .donateBanner div h1{
+    font-size: 25px;
+  }
+}
+ 

@@ -1,0 +1,29 @@
+{
+  "name": "repurpose",
+  "version": "1.0.0",
+  "description": "A D2C( Direct to Customer) platform which empowers to either sell or buy secondary or used products, to power substantiality and provides loyalty in terms of Carbon Credits or rewards points on our platform to maintain sustainability.",
+  "main": "repurpose.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohit-sachdeva_valtech/repurpose.git"
+  },
+  "keywords": [
+    "sustainable",
+    "rewards",
+    "loyalty",
+    "carbon",
+    "credits",
+    "net",
+    "zero",
+    "reuse"
+  ],
+  "author": "mohit.sachdeva@valtech.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohit-sachdeva_valtech/repurpose/issues"
+  },
+  "homepage": "https://github.com/mohit-sachdeva_valtech/repurpose#readme"
+}
